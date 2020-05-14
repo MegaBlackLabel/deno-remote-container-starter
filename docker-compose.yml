@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  app:
+    container_name: deno-container
+    build:
+      context: .
+    volumes:
+      - ./app:/app
+    ports:
+      - 8080:8080
+    tty: true
