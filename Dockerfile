@@ -1,6 +1,6 @@
 FROM hayd/deno:ubuntu-1.0.0
 
-EXPOSE 1993
+EXPOSE 8000
 
 COPY docker-entrypoint.sh /usr/local/bin/
 
